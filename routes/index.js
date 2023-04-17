@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 // const base_url = "http://localhost:6002"
-const base_url = "http://116.68.200.97:6002"
+const base_url = "http://116.68.200.97:56002"
 
 const magazine_list = [
   {
