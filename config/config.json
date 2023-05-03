@@ -1,27 +1,25 @@
 {
   "development": {
     "username": "root",
-    "password": "radiant@123",
-    "database": "radiant_e_magazine",
-    "host": "116.68.200.97",
-    "port": "60906",
-    "dialect": "mysql",
-    "timezone": "Asia/Dhaka"
+    "password": "raihan@123",
+    "database": "hr_policy_magazine",
+    "host": "127.0.0.1",
+    "port": "3307",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": null,
-    "database": "radiant_e_magazine",
+    "database": "rcl-web-admin",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "radiant@123",
-    "database": "radiant_e_magazine",
-    "host": "116.68.200.97",
-    "port": "60906",
-    "dialect": "mysql",
-    "timezone": "Asia/Dhaka"
+    "password": "raihan@123",
+    "database": "hr_policy_magazine",
+    "host": "127.0.0.1",
+    "port": "3307",
+    "dialect": "mysql"
   }
 }
