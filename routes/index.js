@@ -62,20 +62,20 @@ const magazine_list = [
     title: "CHRONICAL-12",
     sub_title: "September - November 2022"
   },
-  {
-    id:9,
-    url:`${base_url}/financial_authority`,
-    thumb:"images/2022_3/Chornical-13_page-0001.jpg",
-    title: "Administrative and Financial Authority",
-    sub_title: "September - November 2022"
-  },
+  // {
+  //   id:9,
+  //   url:`${base_url}/financial_authority`,
+  //   thumb:"images/2022_3/Chornical-13_page-0001.jpg",
+  //   title: "Administrative and Financial Authority",
+  //   sub_title: "September - November 2022"
+  // },
 ]
 
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Radiant', magazine_list:magazine_list});
 });
 router.get('/administrative_and_financial', function (req, res, next) {
-  res.render('administrative');
+  res.render('financial_authority');
 });
 router.get('/loan', function (req, res, next) {
   res.render('loan');
