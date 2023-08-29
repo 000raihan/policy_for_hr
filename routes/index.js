@@ -55,13 +55,13 @@ const magazine_list = [
     title: "Promotion Policy",
     sub_title: "September - November 2022"
   },
-  {
-    id:8,
-    url:`${base_url}/chronical-12`,
-    thumb:"images/2022_3/Chornical-13_page-0001.jpg",
-    title: "CHRONICAL-12",
-    sub_title: "September - November 2022"
-  },
+  // {
+  //   id:8,
+  //   url:`${base_url}/chronical-12`,
+  //   thumb:"images/2022_3/Chornical-13_page-0001.jpg",
+  //   title: "CHRONICAL-12",
+  //   sub_title: "September - November 2022"
+  // },
   // {
   //   id:9,
   //   url:`${base_url}/financial_authority`,
