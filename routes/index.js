@@ -87,6 +87,13 @@ router.get('/travel_policy', function (req, res, next) {
   res.render('travel_policy');
 });
 
+router.get('/marriage_gift_policy', function (req, res, next) {
+  res.render('marriagegiftpolicy');
+});
+router.get('/radiant_yft_policy', function (req, res, next) {
+  res.render('radiant_yft_policy');
+});
+
 router.get('/retirement_policy', function (req, res, next) {
   res.render('retirement_policy');
 });
